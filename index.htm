@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Loops!</title>
+</head>
+<body>
+    <h1>Loops is Js!</h1>
+    <p id="loops"></p>
+
+    <script>
+        var carBrands = ["Toyota", "Mercedes Benz", "Hyundai", "Porche", "Bugatti", "Lamborghini", "Ferrari", "BMW", "Suzuki", "Volks Wagen", "Subaru", ""];
+        var text = "";
+        var i;
+        for (i=0; i<carBrands.length;i++) {
+            text += carBrands[i] + "<br>";
+        }
+        document.getElementById("loops").innerHTML = text;
+    </script>
+</body>
+</html>
